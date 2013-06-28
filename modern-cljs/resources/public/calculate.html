@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- login.html -->
+    <form id="calc-form" novalidate>
+      <legand>Calculator</legend>
+        <fieldset>
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required>
+            </div>
+
+            <div id="calc-btn">
+              <button>calc </button>
+              <div id="result-spot"></div>
+            </div>
+
+        </fieldset>
+    </form>
+    <script src="js/modern.js"></script>
+    <script type="text/javascript">
+      modern_cljs.calc.init();
+    </script>
+</body>
+</html>
