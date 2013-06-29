@@ -19,7 +19,7 @@ fieldset div {
 
 form {
 	margin:1em;
-	width:15em;
+	width:25em;
 }
 
 label {
@@ -37,6 +37,26 @@ legend span {
 	width:10em;
 	text-align:right;
 }
+button {
+	padding:0.15em;
+	width:10em;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 1em arial, sans-serif;
+	display:block;
+	float:left;
+}
+button:click{
+}
+button:focus {
+	border-color:#c5c5c5;
+	background:#f0f0f0;
+}
+button:hover{
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+} 
+
 input {
 	padding:0.15em;
 	width:10em;
@@ -90,6 +110,7 @@ fieldset {
 	width:10em;
 	display:block;
 }
+
 .radio label, .radio input {
 	vertical-align:middle;
 	display:inline;
@@ -111,6 +132,7 @@ fieldset {
 input.default {
 	color:#bbb;
 }
+
 
 #submit {
 	margin:1em;
